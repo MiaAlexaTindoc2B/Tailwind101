@@ -3,39 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile Card</title>
+  <title>Profile Grid</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-pink-100 flex justify-center items-center min-h-screen m-0">
-  <div class="bg-gray-100 w-11/12 max-w-md rounded-lg shadow-lg overflow-hidden">
-    
-    
+<body class="bg-pink-100 min-h-screen flex flex-col items-center p-5">
+  
+
+  <div class="bg-gray-100 w-full max-w-md rounded-lg shadow-lg overflow-hidden mb-8">
     <div class="bg-red-500 text-white flex flex-col sm:flex-row sm:items-center p-5 gap-4">
-      
-      
-      <div class="w-24 h-24 sm:w-20 sm:h-20 rounded-full overflow-hidden border-2 border-white mx-auto sm:mx-0">
+      <div class="w-24 h-24 rounded-full overflow-hidden border-2 border-white mx-auto sm:mx-0">
         <img src="download.jpeg" alt="Profile Image" class="w-full h-full object-cover">
       </div>
-      
-      
       <div class="text-center sm:text-left">
         <h2 class="text-xl font-bold">Mia Alexa B. Tindoc</h2>
         <p class="text-sm opacity-90">BSIT 3B | Lives in Calaca City, Batangas</p>
       </div>
     </div>
-    
-    
     <div class="p-5 text-justify">
       <p class="text-sm text-gray-800 leading-6">
-        I am a 3rd year student at Batangas State University - Balayan Campus, taking the course of Bachelor of Science in Information Technology Major in Business Analytics.
+        I am a 3rd year student at Batangas State University - Balayan Campus, taking the course of 
+        Bachelor of Science in Information Technology Major in Business Analytics.
       </p>
-      <p class="font-bold mt-5 text-lg text-gray-800">Things I like to do:</p>
-      <ul class="pl-5 mt-2 text-sm text-gray-700 list-disc">
-        <li>Playing Online Games</li>
-        <li>Dancing</li>
-        <li>Watching Movies/Anime</li>
-      </ul>
     </div>
   </div>
+  
+ 
+  <div class="w-full max-w-4xl">
+    <h3 class="text-2xl font-bold text-gray-800 mb-5 text-center">✨ Things I Want to Do ✨</h3>
+    
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+      <div class="bg-white p-4 shadow rounded-lg text-center">Travel the World</div>
+      <div class="bg-white p-4 shadow rounded-lg text-center">Learn New Languages</div>
+      <div class="bg-white p-4 shadow rounded-lg text-center">Start a Business</div>
+      <div class="bg-white p-4 shadow rounded-lg text-center">Master Web Development</div>
+      <div class="bg-white p-4 shadow rounded-lg text-center">Dance Professionally</div>
+      <div class="bg-white p-4 shadow rounded-lg text-center">Play More Online Games</div>
+      <div class="bg-white p-4 shadow rounded-lg text-center">Watch 100 Classic Movies</div>
+      <div class="bg-white p-4 shadow rounded-lg text-center">Go Hiking & Adventure</div>
+      <div class="bg-white p-4 shadow rounded-lg text-center">Learn Graphic Design</div>
+      <div class="bg-white p-4 shadow rounded-lg text-center">Make YouTube Content</div>
+      <div class="bg-white p-4 shadow rounded-lg text-center">Improve Public Speaking</div>
+      <div class="bg-white p-4 shadow rounded-lg text-center">Volunteer & Help Others</div>
+    </div>
+  </div>
+
 </body>
 </html>
